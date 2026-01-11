@@ -1,0 +1,56 @@
+
+VALIDATION DATASET GENERATION REPORT
+=====================================
+Generated: 2026-01-11 22:24:55
+
+DATASET SUMMARY
+---------------
+Total Validation Points: 502
+CRS: EPSG:25833
+Study Area: Friedrichshain-Kreuzberg, Berlin
+
+CLASS DISTRIBUTION
+------------------
+
+Class 1.0: Residential/Mixed Use
+  Points: 180 (35.9%)
+  Official codes assigned: 180
+
+Class 2.0: Comm/Indust/ L-Scale Retail/Logistics
+  Points: 45 (9.0%)
+  Official codes assigned: 45
+
+Class 3.0: Public Use/Institutional/Core Area
+  Points: 30 (6.0%)
+  Official codes assigned: 30
+
+Class 4.0: Transportation and infrastructure
+  Points: 22 (4.4%)
+  Official codes assigned: 22
+
+Class 5.0: Others/Unclassified
+  Points: 225 (44.8%)
+  Official codes assigned: 225
+
+
+OUTPUT FILES
+------------
+1. FK_validation_points_500.gpkg - GeoPackage format (recommended for GIS)
+2. FK_validation_points_500.shp - Shapefile format
+3. FK_validation_points_500.csv - CSV format (for spreadsheets)
+4. FK_validation_summary.txt - This report
+
+NEXT STEPS
+----------
+1. Review the validation points in QGIS
+2. Verify spatial distribution across study area
+3. Check for any points outside study area
+4. Prepare field collection materials
+5. Begin ground truth verification
+
+NOTES
+-----
+- Points were generated using stratified random sampling
+- Expected distribution was based on land use class proportions
+- Official codes assigned via spatial join with land use polygons
+- Some points may fall on boundaries; verify in field
